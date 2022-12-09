@@ -461,3 +461,43 @@ button.number {
     gap: 20px;
     width: 100%;
 }
+
+
+
+@media screen and (max-width: 450px) {
+  .popup {position: absolute;
+    top: 20%;
+    left: 12%;
+    width: 75%;
+    background-color: #fff;}
+  .popup .popup-inner img {
+    position: relative;
+    width: 17px;
+    padding: 0px 0px;
+    left: 87%;
+}
+  .popup .popup-preview .input .input-feilds input {
+    width: 85%;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #808080;
+}
+  .popup .popup-preview .input .input-feilds button {
+    width: max-content;
+    margin: 18px 0px;
+    padding: 10px 80px;
+    border-radius: 50px;
+    border: 37;
+    background-color: #ff6c00;
+    color: #fff;
+}
+  .popup .popup-preview .input .input-feilds .bottom {
+    margin: 34px 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 80%;
+}
+}  
